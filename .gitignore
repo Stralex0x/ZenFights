@@ -7,6 +7,7 @@
 !/.gitignore
 !/src/
 !/release_builds/
+!/.github/
 
 # Optional: Ignore specific build artifacts inside your folders
 # (in case you don't want local 'target' folders or IDE configs to sneak in)
