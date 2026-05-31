@@ -36,6 +36,14 @@
         </repository>
     </repositories>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Stral Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Stralex0x/ZenFights</url>
+        </repository>
+    </distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>${api.groupId}</groupId>
