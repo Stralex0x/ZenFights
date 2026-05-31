@@ -1,8 +1,16 @@
-# Ignore everything in the root
+# Ignore everything in the root directory
 /*
 
-# Whitelist (Allow) the specific files and folders you want
+# Explicitly re-include the files and folders we want
+!/pom.xml
+!/README.md
+!/.gitignore
 !/src/
 !/release_builds/
-!/pom.xml
-!.gitignore
+
+# Optional: Ignore specific build artifacts inside your folders
+# (in case you don't want local 'target' folders or IDE configs to sneak in)
+target/
+.idea/
+.vscode/
+*.iml
