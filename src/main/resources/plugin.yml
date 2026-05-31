@@ -1,0 +1,15 @@
+name: ZenFights
+version: '${project.version}'
+main: com.mcdevlab.zenfights.ZenFights
+api-version: '${api.version.plugin}'
+softdepend: [PlaceholderAPI]
+authors: [MCDev Lab]
+commands:
+  fight:
+    description: Open the kit selector and challenge a player
+    usage: /fight <player>
+    permission: zenfights.fight
+  zf:
+    description: ZenFights admin and stats commands
+    aliases: [zenfights]
+    permission: zenfights.base

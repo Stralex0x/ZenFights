@@ -1,0 +1,35 @@
+# ==============================================================================
+#                             ZENFIGHTS CONFIGURATION
+# ==============================================================================
+
+# Core Sandbox Rules
+# sandbox-radius: How far the worldborder extends from the duel center
+sandbox-radius: 32.0
+# spawn-immunity-seconds: Invulnerability window in seconds upon match start
+spawn-immunity-seconds: 3
+# match-timeout-minutes: Max duration in minutes before a duel is auto-cancelled
+match-timeout-minutes: 20
+
+# Zen System Mechanics
+# zen-k-factor: Determines how much Zen is won/lost (higher = more volatile)
+zen-k-factor: 32
+# default-zen: The starting score for new players
+default-zen: 3000
+
+# win-commands: Commands executed by Console when a player wins.
+# Use %player% to target the winner.
+win-commands:
+  - "cc give physical Common 1 %player%"
+
+# ==============================================================================
+#                           DISCORD BOT SYSTEM SETUP
+# ==============================================================================
+discord-bot:
+  enabled: false
+  # bot-token: Place your Discord bot token here
+  bot-token: "YOUR_BOT_TOKEN_HERE"
+  embed-color-leaderboard: "#FFD700"
+  embed-color-stats: "#00FF7F"
+
+# Note: The 'stats' and 'history' sections below are managed automatically by
+# the plugin and should not be edited manually.

@@ -1,0 +1,8 @@
+# Ignore everything in the root
+/*
+
+# Whitelist (Allow) the specific files and folders you want
+!/src/
+!/release_builds/
+!/pom.xml
+!.gitignore
