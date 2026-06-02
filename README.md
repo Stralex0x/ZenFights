@@ -5,7 +5,7 @@
 Version 2.0.7 introduces network-level combat isolation, dynamic Elo-style "Zen" ratings, a fully integrated AI Practice Bot, and an active Discord gateway bridge.
 
 
-[![Discord](https://cdn.modrinth.com/data/cached_images/05fe664c676a12a0c6ee7a86b31d81be49b09a5c.png)](https://discord.gg/yRMDEBqUJp)
+[![Discord](https://cdn.modrinth.com/data/cached_images/05fe664c676a12a0c6ee7a86b31d81be49b09a5c.png)](https://discord.gg/ReqqvMpuHh)
 
 
 ## 🌟 Key Features
